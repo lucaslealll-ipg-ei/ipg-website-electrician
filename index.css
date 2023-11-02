@@ -91,6 +91,10 @@ select {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: var(--blue_mignight_hover);
+}
+
+.hero.background_img {
     background: url('./src/assets/styles/images/slide_06.jpg'), lightgray 0px -24.236px / 100% 104.997% no-repeat;
 }
 
@@ -151,11 +155,11 @@ select {
     padding: 0px 19.3%;
 }
 
-.telephone.light{
+.telephone.light {
     background: white;
 }
 
-.telephone.dark{
+.telephone.dark {
     background: var(--blue_midnight);
 }
 
@@ -175,6 +179,10 @@ select {
     color: var(--yellow);
 }
 
+.telephone_item.dark h1 {
+    color: var(--yellow);
+}
+
 .telephone_item p {
     font-size: 26px;
     font-weight: 400;
@@ -187,53 +195,7 @@ select {
 }
 
 .telephone_item.dark p {
-    color: var(--yellow);
-}
-
-/* ----- ABOUT US ----- */
-
-.about_us {
-    padding: 10%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: url('./src/assets/styles/images/about.jpg'), lightgray -267.174px 0px / 127.831% 100% no-repeat;
-}
-
-.about_us h1 {
-    /* Typography */
-    color: var(--blue_midnight);
-    text-align: center;
-    font-size: 44px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 105%;
-    letter-spacing: -1px;
-}
-
-.about_us p {
-    /* Typography */
-    color: var(--grey);
-    text-align: center;
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 180%;
-    letter-spacing: 0.255px;
-}
-
-.about_us_box {
-    display: flex;
-    flex-direction: column;
-    width: 771.03px;
-    height: 462.47px;
-    align-items: center;
-}
-
-.about_us {
-    background: url('./src/assets/styles/images/about.jpg') center;
-    color: var(--grey);
-    align-items: center;
+    color: white;
 }
 
 /* ----- MAINTENANCE ----- */
@@ -265,18 +227,23 @@ select {
     padding: 17px 89.849px 17px 90.17px;
 }
 
-/* ----- ELECTRICAL SERVICES ----- */
-
-.electrical_services {
-    background-color: var(--blue_mignight_hover);
+/* ----- ABOUT US / ELECTRICAL SERVICES / WORK & PROJECTS / TESTIMONIALS ----- */
+.hero2 {
     padding: 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.electrical_services h1 {
-    color: white;
+.hero2.light {
+    background-color: white;
+}
+
+.hero2.dark {
+    background-color: var(--blue_mignight_hover);
+}
+
+.hero2 h1 {
     /* Typography */
     text-align: center;
     font-size: 44px;
@@ -286,10 +253,18 @@ select {
     letter-spacing: -1px;
 }
 
-.electrical_services p {
-    color: white;
+.hero2.light h1 {
     /* Typography */
-    color: var(--grey_light);
+    color: var(--blue_midnight);
+}
+
+.hero2.dark h1 {
+    /* Typography */
+    color: white;
+}
+
+.hero2 p {
+    /* Typography */
     text-align: center;
     font-size: 17px;
     font-style: normal;
@@ -298,22 +273,44 @@ select {
     letter-spacing: 0.255px;
 }
 
-.electrical_services_box {
-    display: flex;
-    flex-direction: column;
-    width: 771.03px;
-    height: 462.47px;
-    align-items: center;
+.hero2.dark p {
+    /* Typography */
+    color: var(--grey_light);
 }
 
-.electrical_services strong {
+.hero2.light p {
+    /* Typography */
+    color: var(--blue_midnight);
+}
+
+.hero2.about_us_img {
+    background: url('./src/assets/styles/images/about.jpg'), lightgray -267.174px 0px / 127.831% 100% no-repeat;
+}
+
+.hero2.work_projects_img {
+    background: url('./src/assets/styles/images/work-bg.jpg'), lightgray -267.174px 0px / 127.831% 100% no-repeat;
+}
+
+.hero2.our_blog_img {
+    background: url('./src/assets/styles/images/news.jpg'), lightgray -267.174px 0px / 127.831% 100% no-repeat;
+}
+
+
+
+/* ----- TESTIMONIALS ----- */
+
+.testimonials p {
+    color: white;
+    font-size: 18px;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+.testimonials strong {
     color: var(--yellow);
 }
 
-.dots_container {
-    display: flex;
-}
-
+/* ----- FREE QUOTE ----- */
 .free_quote {
     background-color: var(--blue_mignight_hover);
     display: flex;
@@ -350,27 +347,80 @@ select {
     letter-spacing: 0.255px;
 }
 
-/* ----- COMPANY INFO ----- */
-.footer{
+/* ----- FOOTER ----- */
+.footer {
     background-color: var(--blue_mignight_hover);
+    display: flex;
+    justify-content: center;
 }
 
-.rights{
-    color:var(--grey_light);
+.footer_box {
+    display: flex;
+    grid-gap: 20%;
+    padding: 15px 0px 15px 0px;
+}
+
+.footer h1 {
+    color: #FFF;
     text-align: center;
-    font-family: Work Sans;
-    font-size: 14px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 25.2px; /* 180% */
-    letter-spacing: 0.255px;
+    line-height: 105%;
+    letter-spacing: -1px;
 }
 
-.rights strong{
+.footer a,
+p {
+    color: var(--grey_light);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    letter-spacing: 0.24px;
+    text-align: center;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer a:hover {
+    transition: var(--transition-time);
+    color: var(--yellow);
+}
+
+.footer_column {
+    display: flex;
+    width: 361.97px;
+    height: 313.78px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer_acreditation {
+    height: 213px;
+    width: 213px;
+}
+
+/* ----- RIGHTS ----- */
+.rights {
+    color: var(--grey_light);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 180%;
+    letter-spacing: 0.255px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.rights strong {
     color: var(--yellow);
     font-weight: normal;
 }
-
 
 /* ----- EXTRAS ----- */
 .title_underline {
@@ -394,6 +444,9 @@ select {
     border-radius: 75px;
 }
 
+.dots_container {
+    display: flex;
+}
 
 .dots {
     width: 12px;
@@ -409,8 +462,23 @@ select {
     border: 1px solid var(--yellow);
 }
 
-
 .dots.empty {
     border-radius: 6px;
     border: 1px solid var(--yellow);
+}
+
+.social_media_container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.social_media_circle {
+    background-color: var(--grey);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    padding: 12px;
 }
