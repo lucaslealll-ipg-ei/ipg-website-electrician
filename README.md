@@ -16,4 +16,4 @@ Na criação do seu protótipo tome como referência os seguintes elementos, os 
 
 Data de entrega: de acordo com a data definida na plataforma Moodle.
 
-Trabalho de entrega obrigatória para a avaliação contínua.
+Trabalho de entrega obrigatória para a avaliação contínua
