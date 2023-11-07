@@ -18,6 +18,10 @@ body {
     --transition-time: 0.7s;
 }
 
+.content_box {
+    display: flex;
+}
+
 /* ----- HEADER ----- */
 
 .header {
@@ -42,6 +46,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+    cursor: pointer;
 }
 
 /* ----- SELECT/BUTTONS ----- */
@@ -50,6 +55,7 @@ select:hover,
 .button_header:hover {
     background-color: var(--blue_mignight_hover);
     color: var(--yellow);
+
 }
 
 .button_flat {
@@ -296,6 +302,43 @@ select {
 }
 
 
+/* ABOUT US Cards */
+
+.card_link {
+    text-decoration: none;
+}
+
+.card {
+    width: 371.75px;
+    background-color: white;
+    margin: 0 10px 0 10px;
+    display: block;
+
+}
+
+.card.dark {
+    background-color: var(--blue_midnight);
+}
+
+.card:hover h1 {
+    color: var(--yellow);
+    transition: var(--transition-time);
+}
+
+.card h1 {
+    color: var(--blue_midnight);
+    font-size: 24px;
+}
+
+.card.dark h1 {
+    color: var(--yellow);
+    font-size: 24px;
+}
+
+.card_icon {
+    height: 32px;
+}
+
 
 /* ----- TESTIMONIALS ----- */
 
@@ -310,20 +353,30 @@ select {
     color: var(--yellow);
 }
 
+
+/* ----- ELECTRICAL SERVICES ----- */
+
+.es_grid {
+    display: grid;
+}
+
+.es_grid_item {
+    align-items: center;
+    justify-content: center;
+    width: 350.19px;
+    height: 346.55px;
+}
+
 /* ----- FREE QUOTE ----- */
 .free_quote {
     background-color: var(--blue_mignight_hover);
-    display: flex;
-    height: 359px;
     padding: 60px 346.4px 60px 346.41px;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
 }
 
 .free_quote_item {
     display: flex;
     flex-direction: column;
-    gap: 18.06px;
 }
 
 .free_quote_item h1 {
@@ -339,12 +392,30 @@ select {
 
 .free_quote_item p {
     color: #FFF;
-    font-family: Work Sans;
+    text-align: left;
     font-size: 15.346px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 199.395%;
     letter-spacing: 0.255px;
+}
+
+.free_quote input {
+    border-radius: 2px;
+    border: none;
+    width: 321.86px;
+    height: 44px;
+}
+
+input[type="submit"] {
+    background-color: var(--yellow);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form_container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 26px;
+    grid-row-gap: 26px;
 }
 
 /* ----- FOOTER ----- */
