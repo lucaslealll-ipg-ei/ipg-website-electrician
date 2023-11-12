@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Work Sans';
-    src: url('./src/assets/styles/fonts/Work_Sans_Font/WorkSans-VariableFont_wght.ttf') format('truetype');
+    src: url('../fonts/Work_Sans_Font/WorkSans-VariableFont_wght.ttf') format('truetype');
 }
 
 body {
@@ -115,7 +115,7 @@ select {
 }
 
 .hero.background_img {
-    background: url('./src/assets/styles/images/slide_06.jpg'), lightgray 0px -24.236px / 100% 104.997% no-repeat;
+    background: url('../images/slide_06.jpg'), lightgray 0px -24.236px / 100% 104.997% no-repeat;
     background-size: cover;
 }
 
@@ -296,17 +296,17 @@ select {
 }
 
 .hero2.about_us_img {
-    background: url('./src/assets/styles/images/about.jpg'), lightgray -267.174px 0px / 127.831% 100% no-repeat;
+    background: url('../images/about.jpg'), lightgray -267.174px 0px / 127.831% 100% no-repeat;
     background-size: cover;
 }
 
 .hero2.work_projects_img {
-    background: url('./src/assets/styles/images/work-bg.jpg'), lightgray -267.174px 0px / 127.831% 100% no-repeat;
+    background: url('../images/work-bg.jpg'), lightgray -267.174px 0px / 127.831% 100% no-repeat;
     background-size: cover;
 }
 
 .hero2.our_blog_img {
-    background: url('./src/assets/styles/images/news.jpg'), lightgray -267.174px 0px / 127.831% 100% no-repeat;
+    background: url('../images/news.jpg'), lightgray -267.174px 0px / 127.831% 100% no-repeat;
     background-size: cover;
 }
 
