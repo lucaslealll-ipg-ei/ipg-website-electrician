@@ -73,6 +73,13 @@ select:hover,
     background: var(--blue_midnight);
 }
 
+.button_flat.yellow.ob {
+    width: 1160px;
+    color: var(--blue_midnight);
+    font-weight: 700;
+    margin: 20px 0 40px 0;
+}
+
 select {
     height: auto;
     background: none;
@@ -357,19 +364,19 @@ select {
     padding: 5%;
 }
 
-.content_box.wp a{
+.content_box.wp a {
     padding: 7px;
 }
 
-.wp_img_grid_top{
+.wp_img_grid_top {
     display: flex;
 }
 
-.wp_img_grid_top_center{
+.wp_img_grid_top_center {
     display: grid;
 }
 
-.wp_img_grid_bottom a{
+.wp_img_grid_bottom a {
     margin: 4px;
 }
 
@@ -443,6 +450,47 @@ select {
 
 .es_grid_item h1 {
     font-size: 26px;
+}
+
+/* ----- OUR BLOG ----- */
+
+.card_hold_text_ob {
+    display: flex;
+    flex-direction: column;
+    padding: 10% 10% 10%;
+}
+
+.ob_grid_item {
+    width: 380px;
+    background-color: white;
+}
+
+.ob_grid_item h1 {
+    font-size: 23px;
+    text-align: left;
+}
+
+.ob_grid_item h2 {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.hero2.light .ob_grid_item p {
+    font-size: 17px;
+    font-weight: 400;
+    text-align: left;
+    color: var(--grey_light);
+}
+
+.hero2.light .ob_grid_item h1,
+h2,
+p {
+    color: var(--grey_light);
+}
+
+.ob_grid_item img {
+    width: 380px;
+    height: 228px;
 }
 
 /* ----- FREE QUOTE ----- */
@@ -584,6 +632,12 @@ p {
 
 .title_underline.yellow {
     border-top: 2px solid var(--yellow);
+}
+
+.title_underline.card {
+    width: 328px;
+    height: 1px;
+    border-top: 1px solid #E0E0E0;
 }
 
 .profile_picture {
