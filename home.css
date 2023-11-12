@@ -7,6 +7,7 @@ body {
     font-family: 'Work Sans', 'Times New Roman';
     color: white;
     background-color: var(--blue_midnight);
+    margin: 0;
 }
 
 :root {
@@ -115,6 +116,7 @@ select {
 
 .hero.background_img {
     background: url('./src/assets/styles/images/slide_06.jpg'), lightgray 0px -24.236px / 100% 104.997% no-repeat;
+    background-size: cover;
 }
 
 .hero h1 {
@@ -295,14 +297,17 @@ select {
 
 .hero2.about_us_img {
     background: url('./src/assets/styles/images/about.jpg'), lightgray -267.174px 0px / 127.831% 100% no-repeat;
+    background-size: cover;
 }
 
 .hero2.work_projects_img {
     background: url('./src/assets/styles/images/work-bg.jpg'), lightgray -267.174px 0px / 127.831% 100% no-repeat;
+    background-size: cover;
 }
 
 .hero2.our_blog_img {
     background: url('./src/assets/styles/images/news.jpg'), lightgray -267.174px 0px / 127.831% 100% no-repeat;
+    background-size: cover;
 }
 
 
