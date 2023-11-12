@@ -105,12 +105,10 @@ select {
 }
 
 .hero h1 {
-    /* Layout */
     width: 100%;
     height: 80px;
     justify-content: center;
 
-    /* Typography */
     color: #FFF;
     text-align: center;
     font-size: 68px;
@@ -121,7 +119,6 @@ select {
 }
 
 .hero p {
-    /* Typography */
     color: white;
     text-align: center;
     font-size: 18px;
@@ -145,8 +142,8 @@ select {
     display: flex;
     flex-direction: column;
     width: 771.03px;
-    height: 462.47px;
     align-items: center;
+    margin-bottom: 70px;
 }
 
 /* ----- TELEPHONES ----- */
@@ -235,7 +232,7 @@ select {
 
 /* ----- ABOUT US / ELECTRICAL SERVICES / WORK & PROJECTS / TESTIMONIALS ----- */
 .hero2 {
-    padding: 10%;
+    padding: 70px 20px 90px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -250,7 +247,6 @@ select {
 }
 
 .hero2 h1 {
-    /* Typography */
     text-align: center;
     font-size: 44px;
     font-style: normal;
@@ -260,17 +256,14 @@ select {
 }
 
 .hero2.light h1 {
-    /* Typography */
     color: var(--blue_midnight);
 }
 
 .hero2.dark h1 {
-    /* Typography */
     color: white;
 }
 
 .hero2 p {
-    /* Typography */
     text-align: center;
     font-size: 17px;
     font-style: normal;
@@ -280,12 +273,10 @@ select {
 }
 
 .hero2.dark p {
-    /* Typography */
     color: var(--grey_light);
 }
 
 .hero2.light p {
-    /* Typography */
     color: var(--blue_midnight);
 }
 
@@ -303,6 +294,10 @@ select {
 
 
 /* ABOUT US Cards */
+.about_us_card_box {
+    align-items: center;
+    display: flex;
+}
 
 .card_link {
     text-decoration: none;
@@ -310,10 +305,17 @@ select {
 
 .card {
     width: 371.75px;
+    margin: 0 10px 10px;
     background-color: white;
-    margin: 0 10px 0 10px;
-    display: block;
+    display: flex;
+    flex-direction: column;
+}
 
+.card_hold_text {
+    display: flex;
+    flex-direction: column;
+    padding: 10% 10% 10%;
+    align-items: center;
 }
 
 .card.dark {
@@ -335,8 +337,13 @@ select {
     font-size: 24px;
 }
 
+.hero2.light .card p {
+    color: var(--grey_light);
+}
+
 .card_icon {
-    height: 32px;
+    width: 64px;
+    height: 64px;
 }
 
 
@@ -358,6 +365,8 @@ select {
 
 .es_grid {
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
 }
 
 .es_grid_item {
