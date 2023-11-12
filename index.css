@@ -277,7 +277,7 @@ select {
 }
 
 .hero2.light p {
-    color: var(--blue_midnight);
+    color: var(--grey);
 }
 
 .hero2.about_us_img {
@@ -357,6 +357,56 @@ select {
     padding: 5%;
 }
 
+.content_box.wp a{
+    padding: 7px;
+}
+
+.wp_img_grid_top{
+    display: flex;
+}
+
+.wp_img_grid_top_center{
+    display: grid;
+}
+
+.wp_img_grid_bottom a{
+    margin: 4px;
+}
+
+#wp_img_1 {
+    width: 283.75px;
+    height: 478px;
+}
+
+#wp_img_1 {
+    width: 283.75px;
+    height: 478px;
+}
+
+#wp_img_2 {
+    width: 582.5px;
+    height: 231.5px;
+}
+
+#wp_img_3 {
+    width: 582.5px;
+    height: 231.5px;
+}
+
+#wp_img_4 {
+    width: 283.75px;
+    height: 478px;
+}
+
+#wp_img_5 {
+    width: 582.5px;
+    height: 478px;
+}
+
+#wp_img_6 {
+    width: 582.5px;
+    height: 478px;
+}
 
 /* ----- TESTIMONIALS ----- */
 
@@ -388,7 +438,7 @@ select {
     height: 346.55px;
 }
 
-.es_grid_item h1{
+.es_grid_item h1 {
     font-size: 26px;
 }
 
