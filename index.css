@@ -22,6 +22,12 @@ body {
     display: flex;
 }
 
+.content_box.fq {
+    display: flex;
+    align-items: end;
+}
+
+
 /* ----- HEADER ----- */
 
 .header {
@@ -496,13 +502,19 @@ p {
 /* ----- FREE QUOTE ----- */
 .free_quote {
     background-color: var(--blue_mignight_hover);
-    padding: 60px 346.4px 60px 346.41px;
-    justify-content: space-between;
+    padding: 60px 60px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
 }
 
 .free_quote_item {
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
+    margin-right: 15px;
+    width: 396.35px;
 }
 
 .free_quote_item h1 {
