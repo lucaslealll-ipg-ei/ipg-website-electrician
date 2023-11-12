@@ -346,6 +346,17 @@ select {
     height: 64px;
 }
 
+.card_icon.es {
+    width: 42px;
+    height: 42px;
+}
+
+.card_icon_circle {
+    border-radius: 100%;
+    border: 3px solid var(--yellow);
+    padding: 5%;
+}
+
 
 /* ----- TESTIMONIALS ----- */
 
@@ -370,10 +381,15 @@ select {
 }
 
 .es_grid_item {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
     width: 350.19px;
     height: 346.55px;
+}
+
+.es_grid_item h1{
+    font-size: 26px;
 }
 
 /* ----- FREE QUOTE ----- */
@@ -534,7 +550,6 @@ p {
     flex-shrink: 0;
     border-radius: 100%;
     margin: 10%;
-
 }
 
 .dots.filled {
