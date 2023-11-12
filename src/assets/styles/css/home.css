@@ -371,7 +371,7 @@ select {
 
 .card_icon_circle {
     border-radius: 100%;
-    border: 3px solid var(--yellow);
+    border: 1px solid var(--yellow);
     padding: 5%;
 }
 
