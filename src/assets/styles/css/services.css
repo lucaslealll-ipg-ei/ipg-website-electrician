@@ -144,6 +144,10 @@ select {
     letter-spacing: -1px;
 }
 
+.hero2.top h1 {
+    font-size: 68px;
+}
+
 .hero2.light h1 {
     color: var(--blue_midnight);
 }
