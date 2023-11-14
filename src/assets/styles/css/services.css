@@ -494,3 +494,9 @@ p {
 .title_underline.grey {
     border-top: 2px solid var(--grey);
 }
+
+.arch_bottom_white {
+    width: 100%;
+    /* background-color: var(--blue_mignight_hover); */
+    background-color: #DCDCDC;
+}
