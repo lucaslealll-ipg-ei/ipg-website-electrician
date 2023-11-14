@@ -120,6 +120,20 @@ select {
     margin-bottom: 70px;
 }
 
+
+.hero_box.qg {
+display: inline;
+}
+
+
+.hero_box.qg p {
+    text-align: left;
+}
+
+.hero_box.qg h1 {
+    text-align: left;
+}
+
 .hero2 {
     padding: 70px 20px 90px 20px;
     display: flex;
@@ -185,8 +199,65 @@ select {
 
 .hero2.our_blog_img {
     background: url('../images/news.jpg'), lightgray -267.174px 0px / 127.831% 100% no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
+
+
+/* ----- OUR BLOG ----- */
+
+.card_hold_text_ob {
+    display: flex;
+    flex-direction: column;
+    padding: 10% 10% 10%;
+}
+
+.ob_grid_item {
+    width: 380px;
+    background-color: white;
+}
+
+.ob_grid_item h1 {
+    font-size: 23px;
+    text-align: left;
+}
+
+.ob_grid_item h2 {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.hero2.light .ob_grid_item p {
+    font-size: 17px;
+    font-weight: 400;
+    text-align: left;
+    color: var(--grey_light);
+}
+
+.hero2.light .ob_grid_item h1,
+h2,
+p {
+    color: var(--grey_light);
+}
+
+.hero2.dark .ob_grid_item h1,
+h2,
+p {
+    color: var(--grey_light);
+}
+
+.hero2.dark .ob_grid_item p {
+    font-size: 17px;
+    font-weight: 400;
+    text-align: left;
+    color: var(--grey_light);
+}
+
+.ob_grid_item img {
+    width: 380px;
+    height: 228px;
+}
+
+
 
 /* ----- ELECTRICAL SERVICES ----- */
 
@@ -269,7 +340,31 @@ select {
 
 .carousel_img_item:hover {
     transform: scale(1.03);
+}
 
+/* ----- QUALITY GUARANTEE ----- */
+
+.quality_guarantee_item {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-right: 15px;
+    width: 703px;
+    text-align: left;
+}
+
+.quality_guarantee_item h1 {
+    text-align: left;
+}
+
+.quality_guarantee_item p {
+    text-align: left;
+    font-size: 15.346px;
+    letter-spacing: 0.255px;
+}
+
+.quality_guarantee_img {
+    margin-right: 175px;
 }
 
 /* ----- FREE QUOTE ----- */
@@ -297,7 +392,6 @@ select {
     font-style: normal;
     font-weight: 400;
     line-height: 27.3px;
-    /* 116.314% */
     letter-spacing: -1px;
 }
 
@@ -499,4 +593,16 @@ p {
     width: 100%;
     /* background-color: var(--blue_mignight_hover); */
     background-color: #DCDCDC;
+}
+
+.title_underline {
+    width: 185.05px;
+    height: 2px;
+    flex-shrink: 0;
+}
+
+.title_underline.card {
+    width: 328px;
+    height: 1px;
+    border-top: 1px solid #E0E0E0;
 }
