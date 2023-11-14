@@ -68,7 +68,6 @@ select:hover,
 .button_header:hover {
     background-color: var(--blue_mignight_hover);
     color: var(--yellow);
-
 }
 
 .button_flat {
@@ -87,7 +86,7 @@ select:hover,
 }
 
 .button_flat.yellow.ob {
-    width: 1160px;
+    width: 1240px;
     color: var(--blue_midnight);
     font-weight: 700;
     margin: 20px 0 40px 0;
@@ -264,7 +263,7 @@ p {
 .es_grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    gap: 50px;
 }
 
 .es_grid_item {

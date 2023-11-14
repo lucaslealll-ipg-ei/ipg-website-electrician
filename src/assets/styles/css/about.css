@@ -685,6 +685,5 @@ p {
 
 .arch_bottom_white {
     width: 100%;
-    /* background-color: var(--blue_mignight_hover); */
-    background-color: #DCDCDC;
+    background-color: var(--blue_mignight_hover);
 }
