@@ -1,5 +1,7 @@
 # ipg_ti-trab_01_AvadaWebsiteElitrician
 
+https://lucasoal.github.io/bootstrap-ipg_ti-JupiterxWebsiteAgency/
+
 Desenvolva um protótipo de acordo com o tema atribuído, deverá criar todas as páginas que estão definidas no menu principal do protótipo.
 
 Na criação do seu protótipo tome como referência os seguintes elementos, os quais serão levados em consideração para avaliação:
@@ -17,5 +19,3 @@ Na criação do seu protótipo tome como referência os seguintes elementos, os 
 Data de entrega: de acordo com a data definida na plataforma Moodle.
 
 Trabalho de entrega obrigatória para a avaliação contínua
-
->> https://lucasoal.github.io/bootstrap-ipg_ti-JupiterxWebsiteAgency/
