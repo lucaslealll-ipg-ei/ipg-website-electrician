@@ -1,6 +1,6 @@
 # ipg_ti-trab_01_AvadaWebsiteElitrician
 
-https://lucasoal.github.io/bootstrap-ipg_ti-JupiterxWebsiteAgency/
+https://lucaslealll.github.io/lucaslealll-ipg-ei/ipg-website-electrician
 
 Desenvolva um protótipo de acordo com o tema atribuído, deverá criar todas as páginas que estão definidas no menu principal do protótipo.
 
