@@ -1,7 +1,5 @@
 # ipg_ti-trab_01_AvadaWebsiteElitrician
 
-https://lucaslealll.github.io/lucaslealll-ipg-ei/ipg-website-electrician
-
 Desenvolva um protótipo de acordo com o tema atribuído, deverá criar todas as páginas que estão definidas no menu principal do protótipo.
 
 Na criação do seu protótipo tome como referência os seguintes elementos, os quais serão levados em consideração para avaliação:
