@@ -1,4 +1,4 @@
-# ipg_ti-trab_01_AvadaWebsiteElitrician
+# ipg_ti-trab_01_AvadaWebsiteEletrician
 
 Desenvolva um protótipo de acordo com o tema atribuído, deverá criar todas as páginas que estão definidas no menu principal do protótipo.
 
